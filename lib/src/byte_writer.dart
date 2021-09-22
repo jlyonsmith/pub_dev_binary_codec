@@ -10,7 +10,6 @@ class ByteWriter {
   int get currentLength => _index;
 
   void _reserve(int byteCount) {
-    assert(byteCount != null);
     assert(byteCount >= 0);
     while (_index + byteCount > _length) {
       _length *= 2;
@@ -23,13 +22,11 @@ class ByteWriter {
   }
 
   void write(int byte) {
-    assert(byte != null);
     _reserve(1);
     _buffer[_index++] = byte;
   }
 
   void writeAll(Iterable<int> bytes) {
-    assert(bytes != null);
     _reserve(bytes.length);
     _buffer.setRange(_index, _index + bytes.length, bytes);
     _index += bytes.length;

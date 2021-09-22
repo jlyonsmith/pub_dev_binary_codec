@@ -7,12 +7,9 @@ class ByteReader {
   int get currentIndex => _index;
   int get dataLength => _data.length;
 
-  ByteReader(this._data) {
-    assert(_data != null);
-  }
+  ByteReader(this._data);
 
   void _require(int byteCount) {
-    assert(byteCount != null);
     if (_index + byteCount > _data.length) {
       throw ArgumentError('No more elements');
     }

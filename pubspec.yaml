@@ -2,8 +2,6 @@ name: binary_codec
 
 description: Dart library for converting standard data types to a binary format and back
 
-author: Stefan Zemljic <stefan.zemljic@protonmail.com>
-
 version: 2.0.3
 
 repository: https://github.com/stefan-zemljic/pub_dev_binary_codec
