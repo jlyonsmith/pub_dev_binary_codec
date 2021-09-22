@@ -11,3 +11,7 @@ Changed the license to MIT since there are some hours invested in this code know
 # 2.0.2
 
 run formatter
+
+# 2.0.3
+
+Migrated to null safety (Nothing changed, basically)

@@ -30,8 +30,8 @@ void main() {
     print('Success');
   } else {
     /// Else theres a bug in the library
-    /// Please send the [exampleObject] that leads here and on which 
-    /// platform you are to the author of this library (stefan.zemljic@gmx.ch)
+    /// Please send the [exampleObject] that leads here and on which platform
+    /// you are to the author of this library (stefan.zemljic@protonmail.com)
     print('Wait... What???');
   }
 }
